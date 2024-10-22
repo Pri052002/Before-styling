@@ -1,0 +1,22 @@
+.dashboard {
+    padding: 20px;
+  }
+  
+  .course-section, .module-section, .courses-section {
+    margin-bottom: 20px;
+  }
+  
+  form input, form textarea, form select {
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

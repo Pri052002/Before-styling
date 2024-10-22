@@ -1,0 +1,60 @@
+.dashboard {
+    padding: 20px;
+    max-width: 800px; /* Set a maximum width for the dashboard */
+    margin: 0 auto; /* Center the dashboard on the page */
+    font-family: Arial, sans-serif;
+  }
+  
+  .section {
+    margin-bottom: 30px; /* Space between sections */
+    padding: 20px;
+    border: 1px solid #ccc; /* Optional border for each section */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+  }
+  
+  h1, h2 {
+    text-align: center; /* Center align headings */
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column; /* Stack inputs vertically */
+    align-items: center; /* Center align inputs */
+  }
+  
+  input, textarea, button {
+    width: 100%; /* Full width for inputs */
+    max-width: 400px; /* Max width for inputs */
+    margin: 10px 0; /* Space between inputs */
+    padding: 10px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 5px; /* Rounded corners for inputs */
+  }
+  
+  button {
+    background-color: #007bff; /* Blue background for buttons */
+    color: white; /* White text color for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    border: none; /* Remove border for buttons */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .course-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .course-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Separator for courses */
+  }
+  
+  .module-list {
+    list-style-type: none; /* Remove bullet points */
+    padding-left: 20px; /* Indent module list */
+  }
+  
